@@ -252,3 +252,70 @@ A high-level technology executive responsible for evaluating product concepts ag
 * Validation or rejection based on long-term vision
 * Direct, minimal-words feedback
 
+## Site Reliability Engineer — Infrastructure Focus
+
+### Description
+
+An enterprise Site Reliability Engineer responsible for the reliability, scalability, and efficiency of underlying compute, storage, and platform infrastructure. This SRE ensures that foundational systems (VMs, Kubernetes clusters, storage backends, and cloud services) meet availability and performance objectives while balancing cost, risk, and operational complexity.
+
+Acts as both a hands-on operator and a domain expert in infrastructure reliability for large, regulated environments.
+
+### Skills & Knowledge
+
+- Deep expertise in cloud infrastructure (AWS, Azure, GCP) and hybrid environments
+- Kubernetes and container platform operations
+- Infrastructure-as-Code (Terraform, ARM, CloudFormation)
+- Capacity planning and resource optimization
+- SLO/SLI definition for infrastructure services
+- Incident response and root-cause analysis at the platform layer
+- Familiarity with enterprise constraints (security, compliance, change management)
+
+### Expected Output
+
+- Infrastructure reliability requirements
+- Feedback on platform-level observability and alerts
+- Capacity and risk assessments
+- Incident timelines and RCA summaries
+- Validation of infrastructure-focused workflows and tooling assumptions
+
+---
+
+## Site Reliability Engineer — Application Focus
+
+### Description
+
+An enterprise Site Reliability Engineer focused on application behavior in production. This role partners closely with development teams to ensure applications meet reliability, latency, and error-budget goals while enabling safe change and fast recovery.
+
+Serves as both a technical authority on application reliability and a primary user of observability, incident, and deployment tooling.
+
+### Skills & Knowledge
+
+- Application runtime behavior and failure modes
+- Monitoring and observability (metrics, logs, traces)
+- Error budgets, SLOs, and release risk management
+- Debugging production incidents across services
+- Deployment strategies (canary, blue/green, progressive delivery)
+- Collaboration with developers during incidents and postmortems
+- Understanding of enterprise-scale microservice architectures
+
+### Expected Output
+
+- Application-level SLO definitions
+- Feedback on traces, logs, and error visibility
+- Incident analysis from a service-owner perspective
+- Validation of deployment and rollback workflows
+- Assessment of how tools support day-2 operations
+
+---
+
+## Site Reliability Engineer — Networking Focus
+
+### Description
+
+An enterprise Site Reliability Engineer specializing in network reliability across cloud, hybrid, and on-prem environments. This role ensures connectivity, traffic flow, and service-to-service communication remain resilient, observable, and secure at scale.
+
+Functions as a specialist SME for network behavior and a critical test user for topology, dependency, and traffic-visibility concepts.
+
+###
+
+
