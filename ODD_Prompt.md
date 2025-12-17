@@ -1,4 +1,4 @@
-Here you go, Neil — the full notebook + vocabulary in clean Markdown with **no emojis**.
+Here you go, Neil — the full Google Notebook LM + vocabulary in clean Markdown with **no emojis**.
 You can save this directly into GitHub as `README.md` or any Markdown file.
 
 ---
