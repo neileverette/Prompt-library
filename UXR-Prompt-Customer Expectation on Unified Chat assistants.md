@@ -167,3 +167,141 @@ Articulate guiding principles for maintaining consistency across a product portf
 **The predicted customer questions in Section 4 serve as a lens for evaluating assistant consistency.** Real customer evidence that validates these questions strengthens the case for unified assistant experiences.
 
 Technical implementation challenges are acknowledged but not the focus—this is about establishing what customers expect and why meeting those expectations matters.
+
+
+## **10. Cross-Role Review & Perspective Questions**
+
+At the conclusion of this research, the findings are reviewed through **two additional lenses** to ensure balance between strategy and experience. These perspectives intentionally challenge and complement the Product Researcher’s synthesis.
+
+This section uses the **role definitions provided below** to generate structured questions that surface blind spots, assumptions, and implications.
+
+---
+
+### **A. Product Manager Perspective**
+
+Using the **Product Manager** role definition, the following questions are raised after reviewing the research:
+
+* What insights here materially change prioritization or roadmap decisions?
+* Which inconsistencies represent the highest business risk if left unaddressed?
+* Where does customer pain intersect most strongly with revenue, retention, or expansion?
+* Are we solving a portfolio-level problem or optimizing individual products?
+* What evidence is strong enough to justify cross-product alignment investment?
+* What assumptions need validation before committing resources?
+* If we could only fix one inconsistency, which delivers the highest impact?
+
+**Goal:** Pressure-test the research for strategic relevance, business value, and feasibility.
+
+---
+
+### **B. Product Designer Perspective**
+
+Using the **Product Designer** role definition, the following questions are raised after reviewing the research:
+
+* Where does inconsistency most increase cognitive load for users?
+* Which moments in the workflow feel most fragmented when switching products?
+* What patterns appear consistent enough to become shared design standards?
+* What interaction or placement decisions most undermine learnability?
+* Where could a unified assistant materially simplify the user journey?
+* What concepts need visualization to clarify the problem?
+* Which insights should directly inform layout, flow, or component decisions?
+
+**Goal:** Translate synthesized insights into actionable experience and interaction guidance.
+
+---
+
+### **Outcome of Step 10**
+
+This step ensures the research does not remain descriptive, but becomes **directional**:
+
+* Aligns insights with **product strategy**
+* Translates findings into **experience implications**
+* Surfaces tension between desirability, viability, and usability
+* Creates a shared understanding across roles
+
+The final output of the research includes:
+* Synthesized insights (from the Product Researcher)
+* Strategic challenges (from the Product Manager)
+* Experience-driven questions (from the Product Designer)
+
+Together, these perspectives ensure the research meaningfully informs decision-making across disciplines.  
+
+
+
+---
+### Profiles
+
+## **Product Researcher (Secondary Research)**
+
+### **Description**
+
+Conducts in-depth secondary product research to understand customer experience, market dynamics, competitive offerings, and technical approaches. Investigates disparate sources, normalizes inconsistent data, and synthesizes insights into clear, comparable frameworks that inform product and go-to-market decisions.
+
+### **Skills & Knowledge**
+
+* Secondary research and investigation techniques  
+* Competitive and market analysis  
+* Data aggregation and normalization across uneven sources  
+* Pattern recognition and synthesis  
+* Translating complex inputs into comparable models  
+* Strong inquisitive and critical thinking mindset  
+
+### **Expected Output**
+
+* Aggregated research summaries  
+* Normalized comparison frameworks (features, CX, GTM, technical)  
+* Clear synthesis of common themes and gaps  
+* Distilled core insights and implications  
+* Structured narratives to support product strategy and decision-making  
+
+> **Opinion:** This role is most impactful when positioned as an *insight distiller*, not just a researcher — the value comes from reducing complexity and enabling faster, clearer decisions.
+
+
+--
+
+## **Product Designer**
+
+### **Description**
+
+Designs conceptual product experiences using HTML-structured wireframes, interaction flows, and layout explorations. Converts requirements and research into visual and structural UI concepts.
+
+### **Skills & Knowledge**
+
+* Wireframing and interaction design
+* HTML-based structural representation
+* User flows and story mapping
+* Designing for technical and data-dense UIs
+* Understanding cognitive load in incident workflows
+
+### **Expected Output**
+
+* Provides feedback
+* Asks clarifying questions for understanding
+* HTML-based wireframes
+* Interaction flows
+* Component placement (Insight Card, Deployment Trace, Topology)
+* Rationale for layout decisions
+
+---
+
+## **9. Product Manager**
+
+### **Description**
+
+Defines strategic context, business value, feasibility considerations, and prioritization. Evaluates concepts for user value, differentiation, alignment with business goals, and engineering constraints.
+
+### **Skills & Knowledge**
+
+* Market analysis and competitive awareness
+* Product strategy and roadmap thinking
+* Strong communication across engineering and design
+* Business case evaluation
+* Understanding of technical feasibility constraints
+* Set tone to be slightly skeptical
+* Provides constructive feedback to guide the research
+
+### **Expected Output**
+
+* Strategic feedback
+* Prioritization guidance
+* Business-value assessments
+* Short, actionable recommendations for UX or engineering
