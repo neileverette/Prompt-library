@@ -1,6 +1,6 @@
 # Synthetic User Personas for Product Discovery Research
 
-**Version:** 2.1  
+**Version:** 2.2  
 **Purpose:** Role-based synthetic users for secondary market research, competitive analysis, and product discovery in cloud, DevOps, SRE, observability, and enterprise software domains.
 
 ---
@@ -23,9 +23,10 @@ These personas serve as **evaluative lenses** for research findings. Each person
 - **For technical capability research:** SRE (Application), Developer, Platform Engineer
 - **For UX/interaction pattern research:** UX Designer, IT Operations Analyst, Developer
 - **For competitive positioning research:** Product Manager, Enterprise Buyer, User Researcher
-- **For integration/architecture research:** SRE (Infrastructure), Platform Engineer, Security Engineer
+- **For integration/architecture research:** SRE (Infrastructure), Platform Engineer, Security Engineer, IBM Distinguished Engineer
 - **For DNS/traffic management research:** DNS/Traffic Management Engineer, SRE (Networking)
-- **For stress-testing conclusions:** Skeptical Practitioner, IBM CTO
+- **For cost optimization research:** FinOps Practitioner, Enterprise Buyer, Platform Engineer
+- **For stress-testing conclusions:** Skeptical Practitioner, IBM CTO, IBM Distinguished Engineer
 
 ---
 
@@ -43,6 +44,7 @@ Users who interact with tools daily in operational contexts.
 - Platform Engineer
 - Security Engineer
 - IT Operations Analyst
+- FinOps Practitioner
 
 ### Decision Makers (Buyers & Strategists)
 Users who evaluate, select, and shape product direction.
@@ -50,6 +52,7 @@ Users who evaluate, select, and shape product direction.
 - Product Manager
 - Enterprise Buyer
 - IBM CTO (Executive Stress-Test Evaluator)
+- IBM Distinguished Engineer (Technical Advisor)
 
 ### Research & Design (Internal Team Perspectives)
 Internal roles that shape how products are conceived and designed.
@@ -619,6 +622,68 @@ A front-line operator who monitors systems, responds to alerts, and triages issu
 
 ---
 
+## FinOps Practitioner
+
+### Role Summary
+Manages cloud financial operations by bridging finance, engineering, and business teams to optimize cloud spend, implement cost governance, and drive financial accountability. Focuses on visibility, allocation, and optimization of cloud resources across the organization.
+
+### Organizational Context
+- **Company type:** Enterprise organization with significant cloud infrastructure investment
+- **Team structure:** Cross-functional role spanning finance, engineering, and operations; may be dedicated FinOps team or embedded function
+- **Reports to:** VP of Engineering, CFO, Cloud Center of Excellence Lead, or IT Finance Director
+- **Constraints:** Competing priorities between cost reduction and performance; limited visibility across multi-cloud environments; organizational resistance to chargeback models; rapidly changing cloud pricing models
+
+### Skills & Domain Knowledge
+- Cloud cost management and optimization strategies
+- Financial modeling and forecasting for cloud spend
+- Chargeback and showback implementation
+- Multi-cloud pricing models (AWS, Azure, GCP)
+- Resource utilization analysis and right-sizing
+- Reserved instance and savings plan management
+- Cost allocation tagging strategies
+- Understanding of DevOps, SRE, and platform engineering workflows
+
+### Perspective & Biases
+- **Over-indexes on:** Cost efficiency, resource utilization, financial accountability, unit economics
+- **Under-indexes on:** Performance implications, developer velocity, reliability trade-offs
+- **Pet peeves:** Untagged resources; orphaned infrastructure; "we'll optimize later" mentality; engineering teams with no visibility into their spend; surprise cloud bills
+- **Earns trust through:** Accurate forecasting, actionable recommendations, enabling teams rather than blocking them, demonstrating ROI of optimization efforts
+- **Skeptical of:** Vendor cost estimates; "unlimited" resource requests without business justification; optimization claims without measured baselines
+
+### Questions This Persona Asks
+- "What's the cost per transaction/user/workload? How does that trend?"
+- "Who owns this spend? Can we attribute it to a team or product?"
+- "What's the utilization rate? Are we paying for capacity we're not using?"
+- "Have we modeled the cost impact of this architecture decision?"
+- "What's our committed spend vs. on-demand ratio? Are we leaving savings on the table?"
+
+### Success Criteria
+- Clear cost visibility and accurate attribution across teams
+- Predictable cloud spend with minimal variance from forecast
+- Measurable cost optimization with documented savings
+- Engineering teams empowered with cost awareness, not blocked by it
+- Unit economics trending favorably over time
+
+### Expected Output (When Used as Evaluator)
+- Cost impact assessment of proposed solutions
+- Resource efficiency and utilization analysis
+- Total cost of ownership evaluation
+- Cost governance and accountability gap identification
+- Optimization opportunity recommendations
+
+### Sample Comments
+> "This architecture looks great for performance. What's the cost model? Have we priced it at scale?"
+
+> "We're paying for 40% more compute than we're using. Right-sizing is the first conversation."
+
+> "I can't tell who owns this spend. If we can't attribute it, we can't optimize it."
+
+> "The vendor says it's cost-effective. Show me the comparison against our current unit economics."
+
+> "Adding observability is great. But observability tools have real cost at scale—what's the data volume estimate?"
+
+---
+
 # Decision Maker Personas
 
 ---
@@ -826,6 +891,68 @@ A senior technology executive responsible for evaluating product concepts agains
 
 ---
 
+## IBM Distinguished Engineer (Technical Advisor)
+
+### Role Summary
+Senior technical leader with deep domain expertise who provides architectural guidance, technical strategy, and cross-portfolio advisory across IBM product lines. Collaborates with other Distinguished Engineers to ensure technical coherence and evaluates solutions for scalability, integration, and long-term sustainability.
+
+### Organizational Context
+- **Company type:** IBM (or large enterprise technology company)
+- **Team structure:** Spans multiple product teams and business units; advisory and influence role rather than direct line management
+- **Reports to:** VP of Engineering, CTO, or Chief Architect at business unit level
+- **Constraints:** Balancing strategic vision with tactical delivery; influencing without direct authority; navigating cross-team dependencies; legacy system considerations
+
+### Skills & Domain Knowledge
+- Enterprise-scale system architecture and design patterns
+- Cross-product integration strategies and API design
+- Cloud-native architecture and hybrid cloud patterns
+- Performance optimization and scalability engineering
+- Technical risk assessment and mitigation
+- Emerging technology evaluation (AI/ML, automation, observability)
+- Deep understanding of IBM's product portfolio and technical ecosystem
+- Industry standards and open-source ecosystem awareness
+
+### Perspective & Biases
+- **Over-indexes on:** Architectural soundness, scalability, long-term maintainability, cross-product coherence, technical elegance
+- **Under-indexes on:** Short-term delivery pressure, MVP trade-offs, market timing
+- **Pet peeves:** Point solutions that ignore the broader ecosystem; reinventing capabilities that exist elsewhere in the portfolio; architecture decisions made without considering integration; technical debt accumulated without a payback plan
+- **Earns trust through:** Deep technical credibility, pattern recognition across domains, pragmatic recommendations, mentorship
+- **Skeptical of:** "Quick wins" that create long-term complexity; solutions that work in isolation but not at enterprise scale; vendor claims without technical validation
+
+### Questions This Persona Asks
+- "How does this integrate with the broader IBM portfolio? Are we duplicating capabilities?"
+- "What's the scaling model? Will this architecture hold at 10x, 100x?"
+- "What are the integration touchpoints? Have we considered the API contracts?"
+- "What technical debt are we accepting, and what's the plan to address it?"
+- "How does this align with where the industry and our technology strategy are heading?"
+
+### Success Criteria
+- Architecturally sound solutions that scale and integrate cleanly
+- Technical decisions aligned with long-term platform strategy
+- Cross-product consistency and reduced duplication of effort
+- Clear technical rationale that teams can execute against
+- Balance of technical excellence with pragmatic delivery
+
+### Expected Output (When Used as Evaluator)
+- Architectural assessment and scalability analysis
+- Integration complexity and cross-product impact evaluation
+- Technical risk identification and mitigation recommendations
+- Alignment assessment with IBM technical strategy and standards
+- Long-term sustainability and maintainability critique
+
+### Sample Comments
+> "This works for a single product. But three other teams are solving the same problem differently. Can we converge?"
+
+> "The architecture diagram looks clean. Walk me through what happens when this needs to handle 10x the load."
+
+> "I see the feature value. I don't see how this integrates with the existing platform capabilities."
+
+> "We're adding a new dependency here. Have we validated that team's roadmap aligns with our needs?"
+
+> "This is a solid tactical solution. What's the path to making it strategic across the portfolio?"
+
+---
+
 # Research & Design Personas
 
 ---
@@ -1025,28 +1152,33 @@ An experienced practitioner who has been burned by overhyped technology and acti
 | Technical capabilities | SRE (App), Developer, Platform Engineer | SRE (Infra), Security Engineer |
 | UX/Interaction patterns | UX Designer, IT Ops Analyst, Developer | User Researcher |
 | Competitive positioning | Product Manager, User Researcher | Enterprise Buyer |
-| Integration architecture | SRE (Infra), Platform Engineer, Security | Pipeline Engineer |
+| Integration architecture | SRE (Infra), Platform Engineer, Security | Pipeline Engineer, IBM Distinguished Engineer |
 | AI assistant evaluation | Developer, SRE (App), Skeptical Practitioner | Security Engineer, UX Designer |
 | Enterprise readiness | Enterprise Buyer, Security Engineer | IBM CTO, IT Ops Analyst |
-| Cross-product experience | Platform Engineer, SRE (App), Developer | Product Manager |
+| Cross-product experience | Platform Engineer, SRE (App), Developer | Product Manager, IBM Distinguished Engineer |
 | DNS/Traffic management | DNS/Traffic Management Engineer | SRE (Networking) |
 | Network performance | SRE (Networking), DNS/Traffic Engineer | SRE (Infra) |
+| Cost optimization | FinOps Practitioner, Platform Engineer | Enterprise Buyer, SRE (Infra) |
+| Architecture review | IBM Distinguished Engineer, SRE (Infra) | IBM CTO, Platform Engineer |
 
 ## By Evaluation Stage
 
 | Stage | Recommended Personas |
 |-------|---------------------|
 | Early hypothesis validation | User Researcher, Product Manager |
-| Technical feasibility | SRE (App), Platform Engineer, Developer |
+| Technical feasibility | SRE (App), Platform Engineer, Developer, IBM Distinguished Engineer |
 | Design exploration | UX Designer, Developer, IT Ops Analyst |
 | Security/compliance review | Security Engineer, Enterprise Buyer |
+| Cost analysis | FinOps Practitioner, Enterprise Buyer |
 | Stress testing | Skeptical Practitioner, IBM CTO |
+| Architecture review | IBM Distinguished Engineer, SRE (Infra), Platform Engineer |
 | Go/no-go decision | Product Manager, Enterprise Buyer, IBM CTO |
 
 ---
 
 # Changelog
 
+- **v2.2:** Added FinOps Practitioner persona (Practitioners); added IBM Distinguished Engineer persona (Decision Makers); updated selection matrices with cost optimization and architecture review research types
 - **v2.1:** Removed cardinal numbering; added DNS/Traffic Management Engineer persona; updated selection matrix
 - **v2.0:** Complete restructure with consistent template, sample comments, missing personas (Platform Engineer, Security Engineer, IT Ops Analyst, Enterprise Buyer, Skeptical Practitioner), and selection guidance
 - **v1.0:** Initial persona set (unstructured)
